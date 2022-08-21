@@ -8,8 +8,8 @@ pipeline {
   		AWS_SECRET_ACCESS_KEY = credentials('Secret-access-key')
 		ARTIFACT_NAME = 'Dockerrun.aws.json'
 		AWS_S3_BUCKET = 'hackthon-ghada'
-		AWS_EB_APP_NAME = 'hackthon'
-        AWS_EB_ENVIRONMENT_NAME = 'hackthon-env'
+		AWS_EB_APP_NAME = 'hackathon'
+        AWS_EB_ENVIRONMENT_NAME = 'hackathon-env'
         AWS_EB_APP_VERSION = "${BUILD_ID}"
 	}
 
